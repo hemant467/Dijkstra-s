@@ -78,6 +78,7 @@ int main()
 Output:
 Enter number of nodes
  5
+ 
  Enter weight of all the paths in adjacency matrix form
 0 10 0 30 100
 10 0 50 0 0
