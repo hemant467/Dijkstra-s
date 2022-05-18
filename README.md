@@ -73,3 +73,29 @@ int main()
     printf("\n shortest path is %d",dist[target]);
     return 0;
 }
+
+
+Output:
+Enter number of nodes
+ 5
+ Enter weight of all the paths in adjacency matrix form
+0 10 0 30 100
+10 0 50 0 0
+0 50 0 20 10
+30 0 20 0 60
+100 0 10 60 0
+0 10 0 30 100
+
+10 0 50 0 0
+
+0 50 0 20 10
+
+30 0 20 0 60
+
+100 0 10 60 0
+Enter the source
+1
+Enter the target
+5
+1 to 4 to 3 to 5
+ shortest path is 60
